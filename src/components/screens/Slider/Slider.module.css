@@ -1,0 +1,16 @@
+.sliderSection {
+	width: 100vw;
+}
+
+.slider {
+	width: 100%;
+	display: flex;
+	overflow-x: scroll;
+	margin-left: auto;
+	padding-left: 261px;
+	padding-right: 261px;
+}
+
+.slider > img:not(:first-child) {
+	margin-left: 40px;
+}

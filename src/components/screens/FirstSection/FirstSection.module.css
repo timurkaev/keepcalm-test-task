@@ -1,0 +1,31 @@
+.section {
+	width: 1588px;
+	display: grid;
+	grid-template-columns: 860px 600px;
+	grid-template-rows: 480px 480px;
+	gap: 100px 128px;
+	grid-template-areas:
+		"section1 section2"
+		"section3 section4";
+}
+
+.block1 {
+	grid-area: section1;
+}
+
+.block2 {
+	grid-area: section2;
+	align-self: center;
+}
+
+.block3 {
+	width: 600px;
+	justify-self: end;
+	align-self: center;
+	grid-area: section3;
+}
+
+.block4 {
+	grid-area: section4;
+	align-self: center;
+}

@@ -1,0 +1,22 @@
+.wrapper {
+	min-height: 100vh;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: auto 1fr auto;
+	grid-template-areas:
+		"header"
+		"body"
+		"footer";
+}
+
+.header {
+	grid-areas: header;
+}
+
+.body {
+	grid-areas: body;
+}
+
+.footer {
+	grid-areas: footer;
+}

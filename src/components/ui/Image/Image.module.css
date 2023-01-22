@@ -1,0 +1,18 @@
+.image {
+	background-repeat: no-repeat;
+}
+
+.small {
+	width: 320px;
+	height: 488px;
+}
+
+.medium {
+	width: 599px;
+	height: 411px;
+}
+
+.large {
+	width: 860px;
+	height: 480px;
+}

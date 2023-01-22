@@ -1,0 +1,43 @@
+@font-face {
+	font-family: "Orchidea Pro Md";
+	src: url("./fonts/OrchideaPro-Medium.eot");
+	src: local("Orchidea Pro Medium"), local("OrchideaPro-Medium"),
+		url("./fonts/OrchideaPro-Medium.eot?#iefix") format("embedded-opentype"),
+		url("./fonts/OrchideaPro-Medium.woff2") format("woff2"),
+		url("./fonts/OrchideaPro-Medium.woff") format("woff"),
+		url("./fonts/OrchideaPro-Medium.ttf") format("truetype");
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Manrope";
+	src: url("./fonts/Manrope-Medium.eot");
+	src: local("Manrope Medium"), local("Manrope-Medium"),
+		url("./fonts/Manrope-Medium.eot?#iefix") format("embedded-opentype"),
+		url("./fonts/Manrope-Medium.woff2") format("woff2"),
+		url("./fonts/Manrope-Medium.woff") format("woff"),
+		url("./fonts/Manrope-Medium.ttf") format("truetype");
+	font-weight: 500;
+	font-style: normal;
+}
+
+:root {
+	--black: #141414;
+	--white: #ffffff;
+	--header-gradient: linear-gradient(0deg, #464341 0%, #010101 100%);
+	--content-width: 1396px;
+	--orchidea: "Orchidea Pro Md";
+	--manrope: "Manrope";
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: var(--orchidea);
+	overflow-x: hidden;
+}

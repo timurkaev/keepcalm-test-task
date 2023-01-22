@@ -1,0 +1,25 @@
+.header {
+	width: 100vw;
+	height: 100px;
+	background: var(--header-gradient);
+}
+
+.navbar {
+	width: var(--content-width);
+	height: 100%;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: var(--white);
+}
+
+.logo :last-child {
+	margin-left: 7px;
+}
+
+.number {
+	font-weight: 500;
+	font-size: 24px;
+	font-family: var(--manrope);
+}
